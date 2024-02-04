@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.header 
+{
+  padding: 20px 150px;
+  background: rgba(237, 229, 229, 0.057);
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+.logo
+{
+  text-decoration: none;
+  color: black;
+  font-size: 500;
+  font-size: 20px;
+}
+.nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navitems
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-left: 50px;
+  height: 100px;
+  padding: 0px 15px;
+}
+.navitems:hover
+{
+  cursor: pointer;
+}
+.nav-hover:hover
+{
+  background: rgb(17, 157, 238);
+  color: white;
+  text-align: center;
+}
+.orange 
+{
+  background: rgb(255, 115, 0);
+  color: white;
+  padding:  5px 20px;
+  height: auto;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  background-color: rgb(17, 157, 238);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;;
+}
+.banner img
+{ position: absolute;
+  object-fit: cover;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+} 
+.banner-text 
+{
+  margin-top: 60px;
+  position: relative;
+  max-width: 750px;
+  text-align: center;
+  color: white;
+}
+.banner-text h2
+{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.banner button
+{
+  background: rgb(255, 115, 0);
+  color: white;
+  width: 180px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.our-services
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0px 80px;
+}
+.service-header
+{
+  background-color:  rgb(17, 157, 238);
+  width: 180px;
+  height: 40px;
+  padding: 10px 10px 20px ;
+  border: none;
+  border-radius: 2px;
+  position: relative;
+  top: -20px;
+  color: white;
+  letter-spacing: 1.2px;
+}
+.services-list
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.services-content
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+max-width: 250px;
+margin-left: 30px;
+}
+.services-content p
+{
+  text-align: left;
+}
+.services-content a
+{
+  color:rgb(17, 157, 238);
+  text-decoration: none;
+}
+.services-content img
+{
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.portfolio
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(6, 30, 70, 0.881);
+  height: 100%;
+  padding:  40px 150px;
+}
+.portfolio-head
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.portfolio-head h2
+{
+  color: rgb(255, 115, 0);
+}
+.portfolio-head button
+{
+  background-color: rgb(17, 157, 238);
+  border: none;
+  border-radius: 2px;
+  color: white;
+  padding: 12px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-align: center;
+}
+.portfolio-contents
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.workitem
+{
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+.workitem img
+{
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  margin-bottom: 20px;
+}
+.workitem h4
+{
+  color: rgb(255, 115, 0);
+}
+.workitem p
+{
+  color: white;
+}
+.offer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.offertext
+{
+  max-width: 60%;
+  margin: 20px 0px;
+}
+.offertext h2
+{
+  color:  rgb(17, 157, 238);
+}
+.offer-list
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 120px;
+  margin: 0px 0px 30px;
+}
+.offer-content
+{
+  margin-left: 20px;
+  text-align: left;
+}
+.offer-content h3
+{
+  color:  rgb(17, 157, 238);
+}
+.offer-content a
+{
+  color: rgb(17, 157, 238);
+  text-decoration: none;
+}
+.offer-content button
+{
+  color: white;
+  background-color: rgb(17, 157, 238);
+  border: none;
+  border-radius: 3px;
+  padding: 5px 15px;
+  left: 0;
+}
+.liner
+{
+  width: 100%;
+  border: 1px solid black;
+}
+.testimonials
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+max-width: 70%;
+padding: 30px;
+}
+.testimonials h2
+{
+  color: rgb(17, 157, 238);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.testimonials p
+{
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.testimonial-people p
+{
+  color:  rgb(255, 115, 0);
+}
+.testimonial-people img
+{
+  width: 50px;
+  height: auto;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.active
+{
+  background-color: rgb(255, 115, 0);
+}
+.footer
+{
+  display: flex ;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color:  rgba(6, 30, 70, 0.881);
+  padding: 70px 130px;
+}
+.footer h2
+{
+  color: rgb(255, 115, 0);
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.footerlist
+{
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  max-height: 300px;
+  color: white;
+  /* margin-right: 10px; */
+  font-size: 15px;
+}
+.footerlist a
+{
+  color: rgb(17, 157, 238);
+  text-decoration: none;
+}
+.footerlist .liner
+{
+  border: 1px solid white;
+}
+.birdfeedtext, .projecttext, .contacttext
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.newsletter
+{
+  position: relative;
+}
+.newsletter p 
+{
+ margin: 10px 0px 18px 0px;
+}
+.newsletter label
+{
+  color:  rgb(17, 157, 238);
+  font-size: 15px; 
+}
+.newsletter .liner
+{
+  margin-bottom: 10px;
+}
+.newsletter input
+{
+  height: 30px;
+  width: 100%;
+  margin-top: 10px;
+}
+.newsletter button
+{
+  color: white;
+  background-color:  rgb(17, 157, 238);
+  border: none;
+  border-radius: 3px;
+  padding: 3px 15px;
+  margin-top: 12px;
+  position: absolute;
+  right: 3px;
+  bottom: -45px;
+}
+/* .contacttext
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+} */
+.contacttextinner
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.contacttextinner img
+{
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
